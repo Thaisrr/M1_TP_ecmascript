@@ -19,3 +19,13 @@ $ yarn start
 # OR
 $ npm run start
 ```
+
+## Send request : 
+
+post request on http://127.0.0.1:5000/
+
+Body : 
+( optionnal, default FR and 2021 )
+
+```shell
+{ countryCode: "FR", year: "2021" }
